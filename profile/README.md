@@ -15,7 +15,7 @@
 ---
 
 **KubeStellar** is a [CNCF Sandbox](https://www.cncf.io/sandbox-projects/) project that makes managing applications across multiple Kubernetes clusters as easy as working with one.  
-It works seamlessly with your existing tools — no need to modify resources — enabling smooth deployments to edge, multi-cloud, and hybrid cloud environments.
+It works seamlessly with your existing tools no need to modify resources enabling smooth deployments to edge, multi-cloud, and hybrid cloud environments.
 
 KubeStellar is ideal if you:
 - Run a single cluster and want to scale to multiple clusters.
