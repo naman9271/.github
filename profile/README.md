@@ -1,4 +1,4 @@
-# KubeStellar
+# Welcome
 <img alt="KubeStellar Logo" width="500px" align="left" src="/profile/assets/img/KubeStellar-with-Logo.png" />
 
 <br/><br/><br/><br/>
