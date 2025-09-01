@@ -3,7 +3,7 @@
 This repository contains the **default community health files** and **workflow templates** for the [KubeStellar](https://github.com/kubestellar) organization. These files are automatically inherited by all repositories within the KubeStellar organization to ensure consistency across projects.
 
 <div align="center">
-  <img src="./profile/assets/img/banner.png" alt="KubeStellar Banner" height="450" width="95%">
+  <img src="./profile/assets/gif/enhanced_banner.gif" alt="KubeStellar Banner" height="450" width="95%">
 </div>
 
 ## What is this repository?
