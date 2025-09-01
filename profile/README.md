@@ -6,6 +6,8 @@
   </h1>
 </div>
 
+KubeStellar is a [CNCF Sandbox](https://www.cncf.io/sandbox-projects/) project that revolutionizes how you manage applications across multiple Kubernetes clusters. Whether you're scaling from one cluster to many or already managing multiple clusters, KubeStellar provides a unified, developer-friendly workflow that works seamlessly with your existing tools.
+
 <div align="center">
   <img src="./assets/img/banner.png" alt="KubeStellar Banner" height="450" width="95%">
 </div>
@@ -20,12 +22,6 @@
 </div>
 
 ---
-
-## 🌟 Welcome to KubeStellar
-
-**Making multi-cluster Kubernetes management as simple as single-cluster operations**
-
-KubeStellar is a [CNCF Sandbox](https://www.cncf.io/sandbox-projects/) project that revolutionizes how you manage applications across multiple Kubernetes clusters. Whether you're scaling from one cluster to many or already managing multiple clusters, KubeStellar provides a unified, developer-friendly workflow that works seamlessly with your existing tools.
 
 ### 🎯 Why KubeStellar?
 
