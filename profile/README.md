@@ -43,6 +43,7 @@ Explore the KubeStellar ecosystem through our carefully crafted repositories:
 | [**kubestellar/ui**](https://github.com/kubestellar/ui) | 🖥️ Intuitive web interface for multi-cluster operations | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/ui?style=social) |
 | [**kubestellar/ocm-status-addon**](https://github.com/kubestellar/ocm-status-addon) | 📊 Status monitoring for Open Cluster Management | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/ocm-status-addon?style=social) |
 | [**kubestellar/ocm-transport-plugin**](https://github.com/kubestellar/ocm-transport-plugin) | 🚚 Transport plugin for Open Cluster Management integration | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/ocm-transport-plugin?style=social) |
+| [**kubestellar/a2a**](https://github.com/kubestellar/a2a) | 🔗 Application-to-application connectivity solution | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/a2a?style=social) |
 | [**kubestellar/docs**](https://github.com/kubestellar/docs) | 📖 Comprehensive documentation and guides | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/docs?style=social) |
 
 ---
