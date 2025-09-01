@@ -1,0 +1,6 @@
+{
+  "name": "Security Scan",
+  "description": "Comprehensive security scanning including dependency vulnerabilities, secret detection, and code analysis",
+  "iconName": "shield",
+  "categories": ["security", "automation", "code-scanning"]
+}

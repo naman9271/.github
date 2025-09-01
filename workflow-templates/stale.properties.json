@@ -1,0 +1,6 @@
+{
+  "name": "Close Stale Issues and PRs",
+  "description": "Automatically marks and closes stale issues and pull requests to keep your repository organized",
+  "iconName": "clock",
+  "categories": ["issue-management", "automation", "maintenance"]
+}

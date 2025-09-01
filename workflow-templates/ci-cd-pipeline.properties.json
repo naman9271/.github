@@ -1,0 +1,6 @@
+{
+  "name": "CI/CD Pipeline",
+  "description": "Comprehensive CI/CD pipeline with code verification, linting, testing, and building",
+  "iconName": "gear",
+  "categories": ["continuous-integration", "testing", "automation"]
+}

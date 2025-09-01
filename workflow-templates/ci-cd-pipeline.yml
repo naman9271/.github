@@ -1,0 +1,112 @@
+name: CI/CD Pipeline
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+  push:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  # Code verification job
+  verify:
+    name: Verify Code Quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Build Environment
+        run: |
+          # Add your setup commands here
+          # Example for Go projects:
+          # go version
+          echo "Setting up build environment..."
+
+      - name: Verify Code
+        run: |
+          # Add your verification commands here
+          # Examples:
+          # make verify-boilerplate
+          # make verify-codegen  
+          # make verify-go-versions
+          # make verify-imports
+          # make verify-modules
+          echo "Running code verification..."
+
+  # Linting job
+  lint:
+    name: Lint Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Build Environment
+        run: |
+          # Add your setup commands here
+          echo "Setting up linting environment..."
+
+      - name: Run Linter
+        run: |
+          # Add your linting commands here
+          # Example: make lint
+          echo "Running linter..."
+
+  # Unit tests job
+  test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Test Environment
+        run: |
+          # Add your test setup commands here
+          echo "Setting up test environment..."
+
+      - name: Run Unit Tests
+        run: |
+          # Add your test commands here
+          # Example: make test
+          echo "Running unit tests..."
+        env:
+          # Add any environment variables needed for testing
+          # Example: USE_GOTESTSUM: "1"
+          TEST_ENV: "ci"
+
+  # Build job (optional)
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: [verify, lint, test]
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Build Environment
+        run: |
+          # Add your build setup commands here
+          echo "Setting up build environment..."
+
+      - name: Build Application
+        run: |
+          # Add your build commands here
+          # Example: make build
+          echo "Building application..."
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts
+          path: |
+            # Specify paths to your build artifacts
+            # Example: ./dist/
+            ./build/
+          retention-days: 30

@@ -1,0 +1,6 @@
+{
+  "name": "Add Help Wanted Issue Label",
+  "description": "Automatically adds 'help wanted' label when users comment '/help-wanted' on issues",
+  "iconName": "label",
+  "categories": ["issue-management", "automation"]
+}

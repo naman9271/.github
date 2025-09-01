@@ -1,0 +1,6 @@
+{
+  "name": "Greetings for New Contributors",
+  "description": "Welcomes new contributors when they open their first issue or pull request",
+  "iconName": "heart",
+  "categories": ["community", "onboarding"]
+}

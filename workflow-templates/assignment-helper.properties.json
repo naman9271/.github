@@ -1,0 +1,6 @@
+{
+  "name": "Assignment Helper",
+  "description": "Helps users with natural language assignment requests by guiding them to use proper slash commands",
+  "iconName": "person-add",
+  "categories": ["issue-management", "automation", "community"]
+}

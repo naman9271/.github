@@ -1,0 +1,6 @@
+{
+  "name": "Release Automation",
+  "description": "Automated release workflow with changelog generation, multi-platform builds, and asset uploads",
+  "iconName": "tag",
+  "categories": ["deployment", "automation", "release-management"]
+}

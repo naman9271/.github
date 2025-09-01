@@ -1,0 +1,6 @@
+{
+  "name": "Add Good First Issue Label",
+  "description": "Automatically adds 'good first issue' label when users comment '/good-first-issue' on issues",
+  "iconName": "label",
+  "categories": ["issue-management", "automation"]
+}

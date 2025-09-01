@@ -1,0 +1,6 @@
+{
+  "name": "Dependency Updates",
+  "description": "Automated dependency updates for multiple languages with security advisory checking",
+  "iconName": "package",
+  "categories": ["maintenance", "automation", "security"]
+}
